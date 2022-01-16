@@ -366,7 +366,7 @@ class HX711:
 
 
     def get_reference_unit(self):
-        return get_reference_unit_A()
+        return self.REFERENCE_UNIT
 
         
     def get_reference_unit_A(self):
